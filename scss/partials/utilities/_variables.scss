@@ -1,0 +1,37 @@
+//Variables
+$color-primary:#58e1c1;
+$color-secondary: #777;
+$color-default:#51ddfc;
+$white: #fff;
+$color-error:#e4757a;
+$color-info:#927bc1;
+$color-success:#63cc82;
+$color-warning: complement($color-default);
+$info-light: lighten($color-info, 25%);
+$default-light: lighten($color-default, 25%);
+$success-light: lighten($color-success, 25%);
+$error-light: lighten($color-error, 25%);
+$warning-light: lighten(#fd7856, 25%);
+$primary-light: lighten($color-primary, 25%);
+$default-dark: darken($color-default, 25%);
+
+$max-width: 1000px;
+
+//Breakpoints
+$break-m: 768px;
+
+//Maps
+$grid: (
+    $color-info:#927bc1,
+    $color-warning: complement($color-default),
+    $info-light: lighten($color-info, 25%),
+    $default-light: lighten($color-default, 25%),
+    $success-light: lighten($color-success, 25%),
+    $default-dark: darken($color-default, 25%),
+    $error-light: lighten($color-error, 25%),
+    $warning-light: lighten(#fd7856, 25%),
+    $color-error:#e4757a,
+    $color-success:#63cc82,
+    $color-default:#51ddfc,
+    $primary-light: lighten($color-primary, 25%),   
+);
