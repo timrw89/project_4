@@ -45,10 +45,18 @@ $just: null,){
   }
 }
 
-@mixin grid($map) {
-  @each $grid, $color in $grid {
+@mixin gridsystem($map) {
+  @each $grid, $color in $map {
     &-#{$grid} {
       background-color: $color;
     }
   }
+} 
+
+@mixin fbasis() {
+  @for $i from 1 through 12 {
+    &-#{$i} {
+         flex-basis: (8.33%, $i + 33.33% * 3);
+    }
+  } 
 }

@@ -83,51 +83,51 @@ a {
   border-radius: 5px;
 }
 
-.themes.col-#927bc1 {
+.themes.col-1 {
   background-color: #927bc1;
 }
 
-.themes.col-#fc7051 {
+.themes.col-2 {
   background-color: #fc7051;
 }
 
-.themes.col-#dad2ea {
+.themes.col-3 {
   background-color: #dad2ea;
 }
 
-.themes.col-#cef5fe {
+.themes.col-4 {
   background-color: #cef5fe;
 }
 
-.themes.col-#c3ebcf {
+.themes.col-5 {
   background-color: #c3ebcf;
 }
 
-.themes.col-#03a6ca {
+.themes.col-6 {
   background-color: #03a6ca;
 }
 
-.themes.col-#f9e0e1 {
+.themes.col-7 {
   background-color: #f9e0e1;
 }
 
-.themes.col-#feddd4 {
+.themes.col-8 {
   background-color: #feddd4;
 }
 
-.themes.col-#e4757a {
+.themes.col-9 {
   background-color: #e4757a;
 }
 
-.themes.col-#63cc82 {
+.themes.col-10 {
   background-color: #63cc82;
 }
 
-.themes.col-#51ddfc {
+.themes.col-11 {
   background-color: #51ddfc;
 }
 
-.themes.col-#c4f4e9 {
+.themes.col-12 {
   background-color: #c4f4e9;
 }
 
@@ -153,8 +153,10 @@ a {
   padding: 10px 0;
   display: block;
   width: 100%;
-  -webkit-transition: background-color .2s ease-in-out,  color .2s ease-in-out;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out, 
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out, 
+ color .2s ease-in-out;
 }
 
 @media (max-width: 768px) {

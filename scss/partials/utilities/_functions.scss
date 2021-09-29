@@ -1,7 +1,0 @@
-//Loops
-
-@for $i from 1 through 12 {
-    .col-#{$i} {
-         flex-basis: (8.33%, $i + 33.33% * 3);
-    }
-}

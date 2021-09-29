@@ -6,6 +6,7 @@
     @include mq(med) {
         max-width: 1400px;
        @include standarddisplay;
+       
       }
   }
   
@@ -26,9 +27,12 @@
   }
 
 
+.themes.col{
+  @include gridsystem($grid);
+} 
 
-.themes.col {
-  @include grid($grid);
+.col {
+  
 }
 
 
