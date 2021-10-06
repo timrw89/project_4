@@ -1,13 +1,7 @@
 // Partial Imports//
-@import 'partials/utilities/variables',
-        'partials/utilities/mixins',
-        'partials/base/basestyles',
-        'partials/components/typography',
-        'partials/layout/gridsystem',
-        'partials/components/navigation',
-        'partials/components/buttons',
-        'partials/components/forms',
-        'partials/components/images';
+@import 'partials/utilities/index';
+@import 'partials/base/index';
+@import 'partials/components/index';
          
 
 
